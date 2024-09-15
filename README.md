@@ -32,4 +32,15 @@ The dataset includes transactional data from the City of Vancouver's data portal
 The below given screenshot displays the 2023 Building Permits dataset.
 
 
+![2023 Issued Building Permits Dataset](https://github.com/RennieBenson/Data-Analysis/blob/main/2023%20dataset.png)
+
+The below given screenshot displays the 2024 Building Permits dataset.
+
+![2024 Issued Building Permits Dataset](https://github.com/RennieBenson/Data-Analysis/blob/main/2024%20dataset.png)
+
+**Methodology:**
+
+**1.	Data Collection and Preparation:**
+
+From the City of Vancouver's data portal website, 2023 and 2024 dataset in excel format has been downloaded for the year 2023 and 2024 for the geographical location mentioned above. In AWS S3 service folders have been created. The main bucket name is “Propertyanddevelopment-issuedbldgpermits-rennie” and subfolders are created under it. For storing 2023 and 2024 dataset two separate subfolders by the name ‘2023’ and ‘2024’is created.  Under each of these folders, three subfolders namely, Landing, Raw, Trusted and Curated are created. The Landing folder will contain the excel dataset downloaded from the city of Vancouver data portal. The Raw folder will contain the cleaned and structured dataset. Once cleaning and structuring is completed data governance is carried out by applying dataset quality and privacy rules. The results of data governance will be stored in the Trusted folder. The ETL implementation results will finally be stored in the Curated folder.
 
