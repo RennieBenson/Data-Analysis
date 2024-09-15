@@ -139,6 +139,10 @@ Although the data is protected from invalid users, data governance needs to be c
 
 2023 Dataset ETL
 
+![2023PRQR](https://github.com/RennieBenson/Data-Analysis/blob/main/ETL%202023.PNG)
+
 2024 Dataset ETL
+
+![2024PRQR](https://github.com/RennieBenson/Data-Analysis/blob/main/Glue-PRQR-2024.PNG)
 
 
