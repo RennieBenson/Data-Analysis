@@ -115,4 +115,8 @@ AWS Data brew data cleaning for ‘Issued Building Permits’ 2023 dataset
 **_•	Data Protection_**
 Data Protection is of utmost importance whether the data is in motion or at rest. The data faces constant threat from unauthorized or invalid users in terms of Confidentiality (C), Integrity (I) and Availability (A). Hence implementing a CIA protection layer is critical. In this project using AWS Key Management Service (KMS) encryption key was generated. A role defined in the Identity and Access Management Service with policy documents linked to it containing the permissions was assigned to access and administer this newly created key. This key was then used to encrypt the data stored in the S3 bucket ‘Propertyanddevelopment-issuedbldgpermits-rennie’ subfolder. Hence, all documents stored in the folder will be encrypted. The authorized user decrypts the information and views it when downloaded. 
 
+Creation of Key using KMS
 
+![KMS](https://github.com/RennieBenson/Data-Analysis/blob/main/key%20creation%20in%20KMS.PNG)
+
+Encryption key connected to the folder in AWS S3 
