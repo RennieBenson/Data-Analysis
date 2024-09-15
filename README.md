@@ -79,6 +79,16 @@ The following diagram created using draw.io displays four metrics that were crea
 Using Draw.io data lineage diagram for the 'Issued Building Permits dataset,' depicting the processes required to compute the average elapsed time for various task types for the two years 2023 and 2024 was prepared. This diagram was designed with the aim to analyze and check the comparative job-wise average for both years. This design will be used to construct the ETL using the AWS Glue service. The screenshots of the lineage diagram are provided below. 
 
 
+![drawioetl1](https://github.com/RennieBenson/Data-Analysis/blob/main/drawioetl1.png)
+![drawioetl2](https://github.com/RennieBenson/Data-Analysis/blob/main/drawioetl2.png)
+![drawioetl3](https://github.com/RennieBenson/Data-Analysis/blob/main/drawioetl3.png)
+
+
+**_•	Data Cleaning and Structuring_**
+
+
+The Building Permits dataset for the year 2023 and 2024 cannot be directly utilized to implement the data pipeline designed above. This data needs to be cleaned and structured before being used. This action can be achieved using AWS Data Brew service. Using the service two separate projects were created with the relevant dataset from the Landing folder. Upon execution of the job the cleaned and structured data was stored in the respective Raw folders. 
+
 
 
 
