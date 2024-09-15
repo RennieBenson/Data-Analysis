@@ -198,32 +198,47 @@ Using the excel file downloaded in the previous step, the graphical representati
 
 **5.	Insights and Findings:**
 The average elapsed days for different job types were compared for the period 2023 and 2024 and the insights obtained are as follows:
-•	The maximum issuance time is taken for issuing permits for ‘New Buildings’ job type and the least time is taken for issuing permits for ‘Salvage and Abatement’ jobs.  
+
+•	The maximum issuance time is taken for issuing permits for ‘New Buildings’ job type and the least time is taken for issuing permits for ‘Salvage and Abatement’ jobs. 
+
 •	The graph shows that issuance duration for the year 2024 has increased when compared with 2023 for each of the job types. This indicates a slow down in the permit issuing process. 
+
 •	The issuance duration percentage increase in the year 2024 is highest in the case of Addition / Alteration jobs. It was approximately 37% higher in 2024 compared to 2023. This is a big increase in the issuance time, and it needs to be addressed urgently.
+
 •	There was also a 34% increase in issuance time for ‘New Building’ jobs. This is also a big increase and causes concerns as the amount of time for new constructions are delayed due to delay in permit issuance. 
 
 **6.	Recommendations:**
 
-•	The issuance period time span increase should result from various factors like understaffing or inefficient processes or increased volume of applications. A root cause analysis needs to be carried out to identify what the reason for the issuance delay is and why there has been an increase in delay from 2023 to 2024. 
+•	The issuance period time span increase should result from various factors like understaffing or inefficient processes or increased volume of applications. A root cause analysis needs to be carried out to identify what the reason for the issuance delay is and why there has been an increase in delay from 2023 to 2024.
+
 •	A study must be conducted to identify if the request load is maximum during any particular season and if issuance delays are maximum during this time. If so, more resources need to be allocated to the job types with maximum demand on a seasonal, temporary basis.
+
 •	Since the issuance time has increased for all job types from 2023 to 2024, it is clear that the problem needs to be managed for all job types. Hence, if the delay is due to improper resources allocation, then more staff members need to be hired.
+
 •	The procedures for permit issuance should be reanalysed and changes can be brought in to streamline or optimize the different stages.
+
 •	Automating tools may be added to reduce repetitive tasks.
+
 •	Implement Performance Monitoring system so that delays and bottlenecks can be identified at a faster pace and steps can be taken early to mitigate the delays.
+
 •	Obtaining feedback from applicants with regards to which process they faced maximum delay can help identify processes that need to be optimized. For some common issues that may arise like incomplete applications contribute to the delays, then this can be resolved by offering clear guidance on application process to the applicants prior to submission. Also offering services like pre-submission checks could help reduce submission errors thereby speeding up the process.
+
 •	Offering training programs to the employees on a regular basis and setting performance goals linked to employee evaluations can help enhance employee productivity. 
 
 **Tools and Technologies:**
 
 •	ETL design and some diagrams were created in draw.io
+
 •	Stages from Data Preparation, Cleaning, Structuring, Storing, ETL implementation and implementation were all done using various AWS services like S3, Data brew, Glue, KMS.
+
 •	Data analysis was performed using AWS Athena Service.
+
 •	Data visualization was done using excel.
 
 **Deliverables:**
 
 •	At the end of the analysis, the stakeholders need to be provided with detailed findings and recommendations for improvement. 
+
 •	This can be in the form of a direct presentation to the team to communicate the findings and recommendations for improvement.
 Hence, through this analysis project a comprehensive understanding of the permit issuance time with regards to the different types of jobs can be carried out. The insights obtained from the project can be used to improve the processes, procedures of operations and enhance the services to cater to the needs of the city in the most efficient manner.
 
