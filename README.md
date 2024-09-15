@@ -49,8 +49,16 @@ Given below is Trusted folder for 2023 dataset
 
 
 Given below is Trusted folder for 2024 dataset
-![Trustedfolder2023](https://github.com/RennieBenson/Data-Analysis/blob/main/2023%20Trusted%20folder.PNG)
+![Trustedfolder2024](https://github.com/RennieBenson/Data-Analysis/blob/main/2024%20trusted%20folder.PNG)
 
 
 Using draw.io the AWS services and the flow of the process from S3 bucket Landing folder to the Curated folder is represented below along with the AWS services used at each stage. 
 
+![drawio](https://github.com/RennieBenson/Data-Analysis/blob/main/drawio.png)
+
+
+**2.	Descriptive Statistics:**
+
+   The descriptive metric ‘Average Permit Elapsed Days for Type of types’ is used here to evaluate the average time for permit issuance for the different type of jobs like demolition, alteration, new building or salvage works. This metric will give insights into the type of work that takes longer for permit issuance. Hence stakeholders can identify the job types that face delays and focus on improving the operational aspects in the required areas. When the problematic areas can be identified, corrective steps can be taken by the stakeholders to improve the services.
+
+   
