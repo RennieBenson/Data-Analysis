@@ -62,3 +62,23 @@ Using draw.io the AWS services and the flow of the process from S3 bucket Landin
    The descriptive metric ‘Average Permit Elapsed Days for Type of types’ is used here to evaluate the average time for permit issuance for the different type of jobs like demolition, alteration, new building or salvage works. This metric will give insights into the type of work that takes longer for permit issuance. Hence stakeholders can identify the job types that face delays and focus on improving the operational aspects in the required areas. When the problematic areas can be identified, corrective steps can be taken by the stakeholders to improve the services.
 
    
+![metric](https://github.com/RennieBenson/Data-Analysis/blob/main/metric.png)
+
+The following diagram created using draw.io displays four metrics that were created- the descriptive, diagnostic, predictive and prescriptive. As part of this project the descriptive metric is used.
+
+
+![drawio1](https://github.com/RennieBenson/Data-Analysis/blob/main/drawio1.png)
+![drawio2](https://github.com/RennieBenson/Data-Analysis/blob/main/drawio2.png)
+
+
+**3.	Implementation of the Descriptive Metric:**
+
+
+**_•	Data Pipeline Design_**
+
+Using Draw.io data lineage diagram for the 'Issued Building Permits dataset,' depicting the processes required to compute the average elapsed time for various task types for the two years 2023 and 2024 was prepared. This diagram was designed with the aim to analyze and check the comparative job-wise average for both years. This design will be used to construct the ETL using the AWS Glue service. The screenshots of the lineage diagram are provided below. 
+
+
+
+
+
