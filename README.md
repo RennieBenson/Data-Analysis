@@ -38,6 +38,7 @@ The below given screenshot displays the 2024 Building Permits dataset.
 
 ![2024 Issued Building Permits Dataset](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/2024%20dataset.png)
 
+
 **Methodology:**
 
 **1.	Data Collection and Preparation:**
