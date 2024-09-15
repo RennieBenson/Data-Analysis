@@ -146,3 +146,9 @@ Although the data is protected from invalid users, data governance needs to be c
 ![2024PRQR](https://github.com/RennieBenson/Data-Analysis/blob/main/Glue-PRQR-2024.PNG)
 
 
+
+**_•	Data Pipeline Implementation_**
+
+The two datasets from the Trusted folder are now used to implement the ETL design using the AWS Glue service. The end results are then stored into the Curated folder for further action.
+
+
