@@ -127,6 +127,18 @@ In order to ensure Availability, replication of the folder is required. Replicat
 
 Replication Rule
 
+![replication rule](https://github.com/RennieBenson/Data-Analysis/blob/main/replication%20rule.PNG)
+
 Backup folder linked with Rule
+
+![backup](https://github.com/RennieBenson/Data-Analysis/blob/main/backup%20folder%20created%20in%20s3%20bucket.PNG)
+
+
+**_•	Data Governance_**
+Although the data is protected from invalid users, data governance needs to be carried out to ensure the quality, privacy, protection and compliance of data with the laws and regulations. For the two Issued Permits datasets, data privacy and quality rules were applied. After implementing the rules, the datasets were stored in the Trusted folder. The rules were implemented using the service AWS Glue. These datasets can now be used to implement the ETL pipeline that was designed.
+
+2023 Dataset ETL
+
+2024 Dataset ETL
 
 
