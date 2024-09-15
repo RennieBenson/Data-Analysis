@@ -176,3 +176,18 @@ The result is stored in the Curated folder shown below.
 Data analysis is to be carried out to facilitate data visualization. Using AWS Athena, a database was created by name ‘propertyanddevelopment_permits_database_rennie’ and then a table ‘propertyanddevelopment_permits_table_rennie’ with three columns ‘Type of Work,’ ‘AveragePermitElapsedDays 2024’ and ‘AveragePermitElapsedDays 2023’ was created. This step is important because the implemented ETL results need to be converted to an understandable format so that clear insights can be obtained. These insights are the basis of the action steps or optimization operations that will be conducted by the City of Vancouver to improve their services. 
 
 
+![athena](https://github.com/RennieBenson/Data-Analysis/blob/main/athena.png)
+
+The records in the table are as follows. The query result is set to get updated in the Dataproducts folder under the curated folder. 
+
+
+![result](https://github.com/RennieBenson/Data-Analysis/blob/main/athena%20result.png)
+
+
+The result obtained in this step is downloaded in an excel file format. This excel file will be used for visualization for this project. 
+
+
+**_4.	Data Visualization:_**
+
+
+Using the excel file downloaded in the previous step, the graphical representation of the data is generated using the graphical tools available in Excel. 
