@@ -5,12 +5,18 @@
 **Project Description:** Descriptive Analysis of City of Vancouver Building Permits Issuance Data.
 
 **Project Title:** Understanding the Building Permit Issuance Time for different Job Types.
+
+
 **Objective:**
 
-The primary goal of this project is to enable the City of Vancouver to improve its building permit issuance services to customers. Here the number of ‘Elapsed days’ for Building Permit Issuance is analyzed. The ‘Elapsed days’ represent the number of days from the application submission date to the issuance of the permit date. Through this analysis, the intention is to evaluate the average permit elapsed days for the different types of jobs, identify the trends and recommend strategies to reduce the time gap. 
+The primary goal of this project is to enable the City of Vancouver to improve its building permit issuance services to customers. Here the number of ‘Elapsed days’ for Building Permit Issuance is analyzed. The ‘Elapsed days’ represent the number of days from the application submission date to the issuance of the permit date. Through this analysis, the intention is to evaluate the average permit elapsed days for the different types of jobs, identify the trends and recommend strategies to reduce the time gap.
+
+
 **Dataset:** 
 
 The dataset includes transactional data from the City of Vancouver's data portal website under the section ‘Building Permits Issuance’. The dataset is downloaded for the years 2023 and 2024 for the geographical area ‘Kensington-Cedar Cottage.’ The building Permits dataset comprises the following key features:
+
+
 **_Permit Number:_** The unique number that identifies each Permit.
 
 **_Application Created Date:_** This is the date of application of the customer for the Permit.
