@@ -152,3 +152,27 @@ Although the data is protected from invalid users, data governance needs to be c
 The two datasets from the Trusted folder are now used to implement the ETL design using the AWS Glue service. The end results are then stored into the Curated folder for further action.
 
 
+![etl](https://github.com/RennieBenson/Data-Analysis/blob/main/ETL-pipeline%20-fullscreen.PNG)
+
+The output of the ETL Implementation for ‘Issued Building Permits’, which shows the Average Permit Elapsed Days for different job types against the years 2023 and 2024, is given below.
+
+
+![output](https://github.com/RennieBenson/Data-Analysis/blob/main/ETL-Pipeline%20-%20Output.PNG)
+
+
+After preparing the ETL, the ‘Run’ command was executed. 
+
+![run](https://github.com/RennieBenson/Data-Analysis/blob/main/ETL%20Run.PNG)
+
+
+The result is stored in the Curated folder shown below.
+
+![curated](https://github.com/RennieBenson/Data-Analysis/blob/main/Curated%20folder.PNG)
+
+
+**_•	Data Analysis_**
+
+
+Data analysis is to be carried out to facilitate data visualization. Using AWS Athena, a database was created by name ‘propertyanddevelopment_permits_database_rennie’ and then a table ‘propertyanddevelopment_permits_table_rennie’ with three columns ‘Type of Work,’ ‘AveragePermitElapsedDays 2024’ and ‘AveragePermitElapsedDays 2023’ was created. This step is important because the implemented ETL results need to be converted to an understandable format so that clear insights can be obtained. These insights are the basis of the action steps or optimization operations that will be conducted by the City of Vancouver to improve their services. 
+
+
