@@ -36,7 +36,7 @@ The below given screenshot displays the 2023 Building Permits dataset.
 
 The below given screenshot displays the 2024 Building Permits dataset.
 
-![2024 Issued Building Permits Dataset](https://github.com/RennieBenson/Data-Analysis/blob/main/2024%20dataset.png)
+![2024 Issued Building Permits Dataset](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/2024%20dataset.png)
 
 **Methodology:**
 
@@ -45,16 +45,16 @@ The below given screenshot displays the 2024 Building Permits dataset.
 From the City of Vancouver's data portal website, 2023 and 2024 dataset in excel format has been downloaded for the year 2023 and 2024 for the geographical location mentioned above. In AWS S3 service folders have been created. The main bucket name is “Propertyanddevelopment-issuedbldgpermits-rennie” and subfolders are created under it. For storing 2023 and 2024 dataset two separate subfolders by the name ‘2023’ and ‘2024’is created.  Under each of these folders, three subfolders namely, Landing, Raw, Trusted and Curated are created. The Landing folder will contain the excel dataset downloaded from the city of Vancouver data portal. The Raw folder will contain the cleaned and structured dataset. Once cleaning and structuring is completed data governance is carried out by applying dataset quality and privacy rules. The results of data governance will be stored in the Trusted folder. The ETL implementation results will finally be stored in the Curated folder.
 
 Given below is Trusted folder for 2023 dataset
-![Trustedfolder2023](https://github.com/RennieBenson/Data-Analysis/blob/main/2023%20Trusted%20folder.PNG)
+![Trustedfolder2023](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/2023%20Trusted%20folder.PNG)
 
 
 Given below is Trusted folder for 2024 dataset
-![Trustedfolder2024](https://github.com/RennieBenson/Data-Analysis/blob/main/2024%20trusted%20folder.PNG)
+![Trustedfolder2024](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/2024%20trusted%20folder.PNG)
 
 
 Using draw.io the AWS services and the flow of the process from S3 bucket Landing folder to the Curated folder is represented below along with the AWS services used at each stage. 
 
-![drawio](https://github.com/RennieBenson/Data-Analysis/blob/main/drawio.png)
+![drawio](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/drawio.png)
 
 
 **2.	Descriptive Statistics:**
@@ -62,13 +62,13 @@ Using draw.io the AWS services and the flow of the process from S3 bucket Landin
    The descriptive metric ‘Average Permit Elapsed Days for Type of types’ is used here to evaluate the average time for permit issuance for the different type of jobs like demolition, alteration, new building or salvage works. This metric will give insights into the type of work that takes longer for permit issuance. Hence stakeholders can identify the job types that face delays and focus on improving the operational aspects in the required areas. When the problematic areas can be identified, corrective steps can be taken by the stakeholders to improve the services.
 
    
-![metric](https://github.com/RennieBenson/Data-Analysis/blob/main/metric.png)
+![metric](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/metric.png)
 
 The following diagram created using draw.io displays four metrics that were created- the descriptive, diagnostic, predictive and prescriptive. As part of this project the descriptive metric is used.
 
 
-![drawio1](https://github.com/RennieBenson/Data-Analysis/blob/main/drawio1.png)
-![drawio2](https://github.com/RennieBenson/Data-Analysis/blob/main/drawio2.png)
+![drawio1](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/drawio1.png)
+![drawio2](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/drawio2.png)
 
 
 **3.	Implementation of the Descriptive Metric:**
@@ -79,9 +79,9 @@ The following diagram created using draw.io displays four metrics that were crea
 Using Draw.io data lineage diagram for the 'Issued Building Permits dataset,' depicting the processes required to compute the average elapsed time for various task types for the two years 2023 and 2024 was prepared. This diagram was designed with the aim to analyze and check the comparative job-wise average for both years. This design will be used to construct the ETL using the AWS Glue service. The screenshots of the lineage diagram are provided below. 
 
 
-![drawioetl1](https://github.com/RennieBenson/Data-Analysis/blob/main/drawioetl1.png)
-![drawioetl2](https://github.com/RennieBenson/Data-Analysis/blob/main/drawioetl2.png)
-![drawioetl3](https://github.com/RennieBenson/Data-Analysis/blob/main/drawioetl3.png)
+![drawioetl1](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/drawioetl1.png)
+![drawioetl2](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/drawioetl2.png)
+![drawioetl3](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/drawioetl3.png)
 
 
 **_•	Data Cleaning and Structuring_**
@@ -92,24 +92,24 @@ The Building Permits dataset for the year 2023 and 2024 cannot be directly utili
 
 Projects Created in Databrew
 
-![projectsdatabrew](https://github.com/RennieBenson/Data-Analysis/blob/main/2%20Projects%20created%20in%20databrew.PNG)
+![projectsdatabrew](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/2%20Projects%20created%20in%20databrew.PNG)
 
 AWS Data brew data cleaning for ‘Issued Building Permits’ 2024 dataset
 
-![databrewcleaning2024](https://github.com/RennieBenson/Data-Analysis/blob/main/Databrew%20for%202024%20data%20project.PNG)
+![databrewcleaning2024](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/Databrew%20for%202024%20data%20project.PNG)
 
 AWS Data brew data cleaning for ‘Issued Building Permits’ 2023 dataset
 
-![databewcleaning 2023](https://github.com/RennieBenson/Data-Analysis/blob/main/databrew%20for%202023%20data%20project.PNG)
+![databewcleaning 2023](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/databrew%20for%202023%20data%20project.PNG)
 
 2 jobs created for the ‘Issued Building Permits’ datasets
 
-![jobs](https://github.com/RennieBenson/Data-Analysis/blob/main/two%20jobs%20created%20in%20databrew.PNG)
+![jobs](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/two%20jobs%20created%20in%20databrew.PNG)
 
 
 ‘Issued Building Permits’ 2024 results are stored in the Raw folder
 
-![Raw](https://github.com/RennieBenson/Data-Analysis/blob/main/raw%20folder.jpg)
+![Raw](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/raw%20folder.jpg)
 
 
 **_•	Data Protection_**
@@ -117,21 +117,21 @@ Data Protection is of utmost importance whether the data is in motion or at rest
 
 Creation of Key using KMS
 
-![KMS](https://github.com/RennieBenson/Data-Analysis/blob/main/key%20creation%20in%20KMS.PNG)
+![KMS](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/key%20creation%20in%20KMS.PNG)
 
 Encryption key connected to the folder in AWS S3 
 
-![bucket encryption](https://github.com/RennieBenson/Data-Analysis/blob/main/encryptionrule%20enabled%20in%20s3%20bucket.PNG)
+![bucket encryption](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/encryptionrule%20enabled%20in%20s3%20bucket.PNG)
 
 In order to ensure Availability, replication of the folder is required. Replication rule is first defined and a backup folder is created and the rule is linked to the folder. 
 
 Replication Rule
 
-![replication rule](https://github.com/RennieBenson/Data-Analysis/blob/main/replication%20rule.PNG)
+![replication rule](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/replication%20rule.PNG)
 
 Backup folder linked with Rule
 
-![backup](https://github.com/RennieBenson/Data-Analysis/blob/main/backup%20folder%20created%20in%20s3%20bucket.PNG)
+![backup](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/backup%20folder%20created%20in%20s3%20bucket.PNG)
 
 
 **_•	Data Governance_**
@@ -139,11 +139,11 @@ Although the data is protected from invalid users, data governance needs to be c
 
 2023 Dataset ETL
 
-![2023PRQR](https://github.com/RennieBenson/Data-Analysis/blob/main/ETL%202023.PNG)
+![2023PRQR](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/ETL%202023.PNG)
 
 2024 Dataset ETL
 
-![2024PRQR](https://github.com/RennieBenson/Data-Analysis/blob/main/Glue-PRQR-2024.PNG)
+![2024PRQR](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/Glue-PRQR-2024.PNG)
 
 
 
@@ -152,22 +152,22 @@ Although the data is protected from invalid users, data governance needs to be c
 The two datasets from the Trusted folder are now used to implement the ETL design using the AWS Glue service. The end results are then stored into the Curated folder for further action.
 
 
-![etl](https://github.com/RennieBenson/Data-Analysis/blob/main/ETL-pipeline%20-fullscreen.PNG)
+![etl](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/ETL-pipeline%20-fullscreen.PNG)
 
 The output of the ETL Implementation for ‘Issued Building Permits’, which shows the Average Permit Elapsed Days for different job types against the years 2023 and 2024, is given below.
 
 
-![output](https://github.com/RennieBenson/Data-Analysis/blob/main/ETL-Pipeline%20-%20Output.PNG)
+![output](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/ETL-Pipeline%20-%20Output.PNG)
 
 
 After preparing the ETL, the ‘Run’ command was executed. 
 
-![run](https://github.com/RennieBenson/Data-Analysis/blob/main/ETL%20Run.PNG)
+![run](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/ETL%20Run.PNG)
 
 
 The result is stored in the Curated folder shown below.
 
-![curated](https://github.com/RennieBenson/Data-Analysis/blob/main/Curated%20folder.PNG)
+![curated](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/Curated%20folder.PNG)
 
 
 **_•	Data Analysis_**
@@ -176,12 +176,12 @@ The result is stored in the Curated folder shown below.
 Data analysis is to be carried out to facilitate data visualization. Using AWS Athena, a database was created by name ‘propertyanddevelopment_permits_database_rennie’ and then a table ‘propertyanddevelopment_permits_table_rennie’ with three columns ‘Type of Work,’ ‘AveragePermitElapsedDays 2024’ and ‘AveragePermitElapsedDays 2023’ was created. This step is important because the implemented ETL results need to be converted to an understandable format so that clear insights can be obtained. These insights are the basis of the action steps or optimization operations that will be conducted by the City of Vancouver to improve their services. 
 
 
-![athena](https://github.com/RennieBenson/Data-Analysis/blob/main/athena.png)
+![athena](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/athena.png)
 
 The records in the table are as follows. The query result is set to get updated in the Dataproducts folder under the curated folder. 
 
 
-![result](https://github.com/RennieBenson/Data-Analysis/blob/main/athena%20result.png)
+![result](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/athena%20result.png)
 
 
 The result obtained in this step is downloaded in an excel file format. This excel file will be used for visualization for this project. 
@@ -193,7 +193,7 @@ The result obtained in this step is downloaded in an excel file format. This exc
 Using the excel file downloaded in the previous step, the graphical representation of the data is generated using the graphical tools available in Excel. 
 
 
-![output](https://github.com/RennieBenson/Data-Analysis/blob/main/WS%20output2.PNG)
+![output](https://raw.githubusercontent.com/RennieBenson/Data-Analysis/main/WS%20output2.PNG)
 
 
 **5.	Insights and Findings:**
