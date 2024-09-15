@@ -120,3 +120,13 @@ Creation of Key using KMS
 ![KMS](https://github.com/RennieBenson/Data-Analysis/blob/main/key%20creation%20in%20KMS.PNG)
 
 Encryption key connected to the folder in AWS S3 
+
+![bucket encryption](https://github.com/RennieBenson/Data-Analysis/blob/main/encryptionrule%20enabled%20in%20s3%20bucket.PNG)
+
+In order to ensure Availability, replcation of the folder is set. The Replication rule is first defined and then it is linked to the relavant bucket. 
+
+Replication Rule
+
+Bucket linked with Rule
+
+
