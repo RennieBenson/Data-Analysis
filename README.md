@@ -90,5 +90,24 @@ Using Draw.io data lineage diagram for the 'Issued Building Permits dataset,' de
 The Building Permits dataset for the year 2023 and 2024 cannot be directly utilized to implement the data pipeline designed above. This data needs to be cleaned and structured before being used. This action can be achieved using AWS Data Brew service. Using the service two separate projects were created with the relevant dataset from the Landing folder. Upon execution of the job the cleaned and structured data was stored in the respective Raw folders. 
 
 
+Projects Created in Databrew
+
+![projectsdatabrew](https://github.com/RennieBenson/Data-Analysis/blob/main/2%20Projects%20created%20in%20databrew.PNG)
+
+AWS Data brew data cleaning for ‘Issued Building Permits’ 2024 dataset
+
+![databrewcleaning2024](https://github.com/RennieBenson/Data-Analysis/blob/main/Databrew%20for%202024%20data%20project.PNG)
+
+AWS Data brew data cleaning for ‘Issued Building Permits’ 2023 dataset
+
+![databewcleaning 2023](https://github.com/RennieBenson/Data-Analysis/blob/main/databrew%20for%202023%20data%20project.PNG)
+
+2 jobs created for the ‘Issued Building Permits’ datasets
+
+![jobs](https://github.com/RennieBenson/Data-Analysis/blob/main/two%20jobs%20created%20in%20databrew.PNG)
+
+
+‘Issued Building Permits’ 2024 results are stored in the Raw folder
+
 
 
