@@ -31,3 +31,5 @@ The dataset includes transactional data from the City of Vancouver's data portal
 
 The below given screenshot displays the 2023 Building Permits dataset.
 
+
+
